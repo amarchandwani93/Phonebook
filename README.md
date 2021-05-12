@@ -3,16 +3,16 @@ After Cloning the repo to you local system follow the below steps to run the app
 
 #### Start the Backend Server and MongoDB
 1. Open the root folder in VS Code.
-2. Navigate to phonebookAppBackend folder and run npn install.
+2. Navigate to phonebookAppBackend folder and run npm install.
 3. After installation is complete, start mongoDB on port 27017.
 4. To start the backend server run "npm start" command in the terminal
 5. console should you "Server started on port 3000" and "connected to DB on port 27017"
 
 #### Start the Frontend Server
 1. Open another terminal in VS Code.
-2. Navigate to phonebookAppBackend folder and run npn install.
+2. Navigate to phonebookAppUI folder and run npm install.
 3. After installation is complete start the frontend Angular server with command "ng serve"
-4. Wait till compilation is complete and then in your broswer open the following link "localhost:4200"
+4. Wait till compilation is complete and then in your broswer open the following link "http://localhost:4200"
 
 ### Things you can do on the app
 1. To add new contact click on Add contact button, fill out the necessary fields and click on save.
