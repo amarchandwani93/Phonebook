@@ -1,0 +1,17 @@
+.btn.btn-success {
+    margin: 10px;
+}
+
+.card {
+    width: 35rem;
+    margin: 80px;
+}
+
+.contact-body {
+    padding: 5rem;
+    text-align: justify;
+}
+
+.contact-details {
+    background-color: lavender;
+}

@@ -1,0 +1,12 @@
+<div class="contact-details">
+    <div class="card">
+        <div class="card-body">
+            <div class="content-body">
+                <h3 class="card-title">Name: {{ contact.firstName }} {{ contact.lastName }}</h3>
+                <h4 class="card-text">Phone no: {{ contact.countryCode }} - {{ contact.phoneNumber }}</h4>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-success" (click)="onEditContact()">Edit</button>
+    <button class="btn btn-danger" (click)="onDeleteContact()">Delete</button>
+</div>

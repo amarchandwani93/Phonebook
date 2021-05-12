@@ -1,0 +1,10 @@
+.col-xs-12.col-sm-7 {
+    margin: 10px;
+}
+
+.btn.btn-outline-success.my-2.my-sm-0 {
+    color: green;
+    margin: 5px;
+    background-color: white;
+    border-color: green;
+}
