@@ -12,8 +12,5 @@ export class PhonebookComponent implements OnInit {
     constructor(private contactService: ContactService) {}
 
     ngOnInit(): void {
-        this.contactService.contactSelected.subscribe((contact: Contact) => {
-            this.selectedContact = contact;
-        });
     }
 }

@@ -10,7 +10,6 @@ export class ContactService {
 
     private contacts: Contact[] = [];
 
-    contactSelected = new EventEmitter<Contact>();
     contactsChanged = new Subject<Contact[]>();
 
     getContacts() {
@@ -18,7 +17,7 @@ export class ContactService {
             .get('http://localhost:3000/contacts')
             .subscribe((resp: Contact[]) => {
                 this.contacts = resp;
-                this.contactsChanged.next(this.contacts)
+                this.contactsChanged.next(this.contacts);
             });
     }
 

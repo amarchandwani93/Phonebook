@@ -9,12 +9,16 @@
     <hr>
     <div class="row">
         <div class="col-xs-12 col-sm-7">
-            <div class="list-group">
-                <app-contact-list-item
-                    *ngFor="let contact of contacts; let i = index"
-                    [contact]="contact"
-                    [index]="i">
-                </app-contact-list-item>
+            <div class="scrollbar scrollbar-primary">
+                <div class="force-overflow">
+                    <div class="list-group">
+                        <app-contact-list-item
+                            *ngFor="let contact of contacts; let i = index"
+                            [contact]="contact"
+                            [index]="i">
+                        </app-contact-list-item>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -8,3 +8,17 @@
     background-color: white;
     border-color: green;
 }
+
+.scrollbar.scrollbar-primary {
+    margin-left: 5px;
+    float: left;
+    height: 300px;
+    width: 450px;
+    background: #fff;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.force-overflow {
+    min-height: 10px;
+}
