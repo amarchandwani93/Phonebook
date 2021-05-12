@@ -76,7 +76,7 @@ app.put('/contacts/:phoneNumber', (req, res) => {
             firstName: req.body.firstName,
             lastName: req.body.lastName,
             phoneNumber: req.body.phoneNumber,
-            countryNode: req.body.countryCode
+            countryCode: req.body.countryCode
         },
         { new: true },
         (error, contact) => {
